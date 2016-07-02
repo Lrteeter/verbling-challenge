@@ -1,7 +1,6 @@
 body {
   font-family: Lucida Console, Monaco5, monospace;
   height: 100vh;
-<<<<<<< HEAD
   overflow: hidden;
   background-color: #F4F9FE;
 }
@@ -79,7 +78,6 @@ li:hover {
 }
 
 .result-item:active, .result-item-show:hover {
-  /*background-color: #87cefa;*/
   background-color: #b0c4de;
 }
 
@@ -102,6 +100,4 @@ li:hover {
   margin: 5px;
   padding: 10px;
   border-radius: 5px;
-=======
->>>>>>> f5a3605335bdecdf8b062f987a4af3952040b5f9
 }

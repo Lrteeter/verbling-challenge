@@ -78,7 +78,6 @@ li:hover {
 }
 
 .result-item:active, .result-item-show:hover {
-  /*background-color: #87cefa;*/
   background-color: #b0c4de;
 }
 
