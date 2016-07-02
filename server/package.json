@@ -1,0 +1,26 @@
+{
+  "name": "verbling-challengeq-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Verbling",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-addons-linked-state-mixin": "~0.14.3"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-loader": "^5.1.0",
+    "webpack": "^1.12.9"
+  },
+  "description": "Verbling Challenge",
+  "repository": "https://github.com/verbling/verbling-challenge"
+}

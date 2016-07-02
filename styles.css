@@ -1,0 +1,104 @@
+body {
+  font-family: Lucida Console, Monaco5, monospace;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #F4F9FE;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.title {
+  margin: 50px auto;
+  width: 50%;
+  text-align: center;
+}
+
+.main-box * {
+  margin: 0;
+}
+
+.main-box {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.results-list {
+  background-color: white;
+  height: 250px;
+  border: 1px solid black;
+  overflow-y: scroll;
+}
+
+li {
+  cursor: pointer;
+  margin: 5px;
+  padding-left: 10px;
+  text-overflow: ellipsis
+}
+
+li:hover {
+  background-color: lightgray;
+}
+
+#empty, #empty:hover {
+  background-color: white;
+  cursor: auto;
+}
+
+.open-close {
+  float:right;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+.result-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  color: black;
+}
+
+.none {
+  display: none;
+}
+
+.result-item-show {
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-height: 30px;
+  white-space: wrap;
+  background-color: #BCDDFF;
+}
+
+.result-item:active, .result-item-show:hover {
+  /*background-color: #87cefa;*/
+  background-color: #b0c4de;
+}
+
+.search-box {
+  width: 386px;
+  height: 40px;
+  border: 1px solid black;
+  padding: 2px 2px 2px 10px;
+}
+
+.toggle-button {
+  float: left;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.add-button {
+  float: right;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
