@@ -12,7 +12,7 @@ var SearchWindow = React.createClass({
       list: {
         7: "Hi Verbling! My name is Leanne. I graduated from UNC Chapel Hill with a BS in physics and I finished App Academy about 6 months ago.",
         6: "Check out their website if you're not familiar with App Academy. They're a great bunch of people: www.appacademy.io/immersive/course",
-        5: "My strong suites are Ruby, Ruby on Rails, JavaScript, and React.js",
+        5: "My strong suits are Ruby, Ruby on Rails, JavaScript, and React.js",
         4: "I love the idea of remote and digital education, especially for continuing-education students, like parents who have too many family obligations to take in-person classes, for example. ",
         3: "(It's amazing and frustrating how much of my Spanish I've forgotten in the last few years!!)",
         2: "I would absolutely love to talk to you guys and learn more about your team and your stack! Please get in touch with me!",
