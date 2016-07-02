@@ -10,6 +10,7 @@ export default class App extends React.Component {
         <SearchWindow></SearchWindow>
       </div>
     )
+    return <div>Start here!</div>;
   }
 
 }

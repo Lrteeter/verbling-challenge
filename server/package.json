@@ -19,7 +19,8 @@
   "devDependencies": {
     "babel": "^5.8.23",
     "babel-loader": "^5.1.0",
-    "webpack": "^1.12.9"
+    "webpack": "^1.12.9",
+    "express": "^4.13.3"
   },
   "description": "Verbling Challenge",
   "repository": "https://github.com/verbling/verbling-challenge"
