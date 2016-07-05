@@ -66,10 +66,9 @@ var SearchWindow = React.createClass({
     }
     // Uses the boolean emptyFlag to return this message if no matches were found
     if (emptyFlag) {
-      return(<li id="empty">No results found</li>);
-    } else {
-      return results;
+      results.push(<li id="empty" key={i - 1}>No results found</li>);
     }
+    return results;
   },
 
   // Function handles click events on the list-items
@@ -148,12 +147,8 @@ var SearchWindow = React.createClass({
   },
 
   render: function () {
-    if (this.state.search != "") {
-      var results = this.search(this.state.search);
-    }
-    if (!results) {
-      var results = this.search("");
-    }
+    var results = this.search();
+
     return (
       <div className="main-box">
         <input
